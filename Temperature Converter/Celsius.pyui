@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{43, 82}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "2DEE1CBF-C1F8-4CA1-B47A-C058A9F757FD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "farenhit_textfield"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{43, 22}, {338, 52}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "80D2D3F5-491D-4A4E-9500-05800C5A6A67",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter in a temp in celsius and it will change to fahrenheit",
+          "font_size" : 18,
+          "name" : "description_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{43, 209}, {394, 83}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "0E0BD260-BDE2-47A1-A0B5-41B9BA01DC03",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "name" : "answer_label"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{271, 82}, {80, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_celsius_to_farenhiet",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "2BD3D6CB-0444-49F4-BE49-B7B3EF07A06B",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
